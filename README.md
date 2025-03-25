@@ -85,10 +85,10 @@ class VacuumCleanerAgent:
         # Print the current status of the agent
         print(f"Location: {self.location}, Dirt Status: {self.dirt_status}")
 
-# Example usage:
+#Example usage:
 agent = VacuumCleanerAgent()
 
-# Move the agent, suck dirt, and do nothing
+#Move the agent, suck dirt, and do nothing
 
 agent.perform_action("left")
 agent.print_status()
@@ -96,6 +96,7 @@ agent.perform_action("suck")
 agent.print_status()
 agent.perform_action("nothing")
 agent.print_status()
+
 ```
 ## OUTPUT:
 ![Screenshot 2025-03-25 135113](https://github.com/user-attachments/assets/99ae998f-05ce-41d8-b187-92056114aa16)
