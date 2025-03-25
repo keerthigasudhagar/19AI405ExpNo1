@@ -1,6 +1,7 @@
+
 <h1>ExpNo 1 :Developing AI Agent with PEAS Description</h1>
 <h3>Name: ANU VARSHINI M B</h3>
-<h3>Register Number: 212223240010</h3>
+<h3>Register Number:212223240010</h3>
 
 
 <h3>AIM:</h3>
@@ -40,6 +41,7 @@
 <p>Treat unhealthy patients in each room. And check for the unhealthy patients in random room</p>
 <h3>STEP 5:</h3>
 <p>Measure the performance parameters: For each treatment performance incremented, for each movement performance decremented</p>
+
 ## PROGRAM:
 ```
 class VacuumCleanerAgent:
@@ -85,10 +87,10 @@ class VacuumCleanerAgent:
         # Print the current status of the agent
         print(f"Location: {self.location}, Dirt Status: {self.dirt_status}")
 
-#Example usage:
+# Example usage:
 agent = VacuumCleanerAgent()
 
-#Move the agent, suck dirt, and do nothing
+# Move the agent, suck dirt, and do nothing
 
 agent.perform_action("left")
 agent.print_status()
@@ -96,10 +98,11 @@ agent.perform_action("suck")
 agent.print_status()
 agent.perform_action("nothing")
 agent.print_status()
-
 ```
 ## OUTPUT:
-![Screenshot 2025-03-25 135113](https://github.com/user-attachments/assets/99ae998f-05ce-41d8-b187-92056114aa16)
+
+![Screenshot 2025-03-25 135113](https://github.com/user-attachments/assets/c145c087-d1b1-47ec-80bc-d10f48539e5d)
+
 
 ## RESULT:
 Thus the Developing AI Agent with PEAS Description was implemented using python programming.
